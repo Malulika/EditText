@@ -30,5 +30,9 @@ public class MainActivity extends AppCompatActivity {
         if(ans%7==0){
             btn.setText("boom!");
 
-
+        }
+        else{
+            btn.setText(Integer.toString(ans));
+        }
+    }
 }
